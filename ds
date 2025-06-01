@@ -1,0 +1,5 @@
+ echo "<td>
+            <a href='edit.php?kode=" . $row['No_kegiatan'] . "' class='btn btn-primary'>Edit</a>
+            <a href='hapus.php?No_kegiatan=" . $row['No_kegiatan'] . "' class='btn btn-danger' onclick='return confirm(\"Yakin ingin menghapus data ini?\")'>Hapus</a>
+          </td>";
+    echo "</tr>";
